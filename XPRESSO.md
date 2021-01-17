@@ -1,5 +1,30 @@
 # XPRESSO
 
+## Post-Reservation Access Details
+
+- Cisco Modeling Labs Server
+  - Address: 10.10.20.161
+  - Username: developer
+  - Password: C1sco12345
+  - HTTPS Port for CML GUI/API: 443
+  - Example Connection: <https://10.10.20.161>
+  - SSH Port for Console Connections: 22
+- Simulated Hosts and Network Devices
+  - By default CML nodes will use credentials of cisco cisco
+  - For detailed addressing and credential details of the sample simulation, please see the Network Devices tab
+- Devbox
+  - Address: 10.10.20.50
+  - Username: developer
+  - Password: C1sco12345
+  - SSH Port: 22
+  - RDP Port: 3389
+- Xpresso Server
+  - Address: 10.10.20.54
+  - Username: developer
+  - Password: C1sco12345
+  - SSH Port: 22
+  - HTTP Port: 80/443
+
 ## Credentials
 
 | Component       | Type   | IP Address   | Method | Credentials   |
@@ -16,3 +41,7 @@
 | dist-sw02       | NX-OS  | 10.10.20.178 | TELNET | cisco / cisco |
 | inside-host01   | Linux  | 10.10.20.179 | SSH    | cisco / cisco |
 | inside-host02   | Linux  | 10.10.20.180 | VNC    | cisco / cisco |
+
+## Topology
+
+[CML Sandbox Topology.pdf](https://devnetsandbox.cisco.com/sandbox-instructions/Expresso/CML%20Sandbox%20Topology.pdf)
